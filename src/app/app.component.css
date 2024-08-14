@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=New+Amsterdam&family=Play:wght@400;700&display=swap');
+.nav_section{
+    display: flex;
+}
+.nav_section-logo{
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-stretch: extra-condensed;
+    margin-left: 1%;
+}
+.nav_section_tabs{
+    display: flex;
+    margin: 2.5% 0 0 20%;
+}
+.tabs{
+    padding-left: 75px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.tag_line{
+    font-size: 50px;
+    text-align: center;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+}
+.watch{
+    position: relative;
+    left: 40%;
+    height: 10vh;
+    width: 20%;
+    font-size: 25px;
+    background-color: cadetblue;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 500;
+}

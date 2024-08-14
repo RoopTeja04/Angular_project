@@ -1,0 +1,50 @@
+<p class="heading">
+    Your WatchList
+</p>
+<div class="movie">
+    <div class="movie_img_container" *ngFor="let watch of WatchList">
+        <img class="movie_img" src={{watch.MovieImg}} alt="movie"/><br>
+        <button class="add" (click)= "removeWatchList(watch.id)">-</button>
+        <button class="play">play</button>
+    </div>
+</div>
+<p class="heading">
+    Marvel Fans
+</p>
+<div class="movie">
+    <div class="movie_img_container" *ngFor=" let Marvel of MarvelMovies">
+        <img class="movie_img" src={{Marvel.MovieImg}}/>
+        <button class="add" (click)= "addWatchList(Marvel.id)">+</button>
+        <button class="play">play</button>
+    </div>
+</div>
+<p class="heading">
+    Action
+</p>
+<div class="movie">
+    <div class="movie_img_container" *ngFor=" let Action of ActionMovies ">
+        <img class="movie_img" src={{Action.MovieImg}}/>
+        <button class="add" (click)= "addWatchList(Action.id)">+</button>
+        <button class="play">play</button>
+    </div>
+</div>
+<p class="heading">
+    Comedy
+</p>
+<div class="movie">
+    <div class="movie_img_container" *ngFor=" let Comedy of ComedyMovies ">
+        <img class="movie_img" src={{Comedy.MovieImg}}/>
+        <button class="add" (click)= "addWatchList(Comedy.id)">+</button>
+        <button class="play">play</button>
+    </div>
+</div>
+<p class="heading"> 
+    Thriller / Drama / Many More
+</p>
+<div class="movie">
+    <div class="movie_img_container" *ngFor=" let DTM of DTM ">
+        <img class="movie_img" src={{DTM.MovieImg}}/>
+        <button class="add" (click)= "addWatchList(DTM.id)">+</button>
+        <button class="play">play</button>
+    </div>
+</div>
